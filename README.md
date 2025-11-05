@@ -53,3 +53,14 @@ Building the model was only the first step. The most valuable part of this proje
 ## 🏁 Final Status
 
 This project is now a complete pipeline that correctly prepares data, builds a Transformer model, and—most importantly—uses robust, professional techniques to validate its performance and avoid common data science pitfalls.
+
+- ✅ **Built a Custom Model:** You wrote a `SentimentTransformer` from scratch.
+- ✅ **Data Processing:** You created a vocabulary and a `train_test_split`.
+- ✅ **Solved Class Imbalance:** You used a *stratified* split to ensure your data was fair.
+- ✅ **Used Transfer Learning:** You successfully loaded and "froze" pre-trained GloVe embeddings.
+- ✅ **Identified Overfitting:** You read your training logs and spotted the exact moment your model stopped learning and started memorizing.
+- ✅ **Solved Overfitting:** You implemented **Early Stopping** to find and save the best-performing model (your 93% accurate one).
+- ✅ **Performed a Full Evaluation:** You've gone *far* beyond just "accuracy." You have generated and understood:
+    - **Confusion Matrix:** To see *where* your model makes mistakes.
+    - **Classification Report:** To measure `Precision`, `Recall`, and `F1-Score`.
+    - **ROC Curve & AUC Score:** To prove your model is excellent (`0.9756`) at separating classes.
